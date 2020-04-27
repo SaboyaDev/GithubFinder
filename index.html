@@ -7,6 +7,7 @@
 
     <!-- Litera Bootstrap Swatch Min.CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/stylesheet.css" />
 
     <!-- Font Awesome -->
     <link
@@ -34,26 +35,33 @@
     <title>Github Finder</title>
   </head>
   <body>
-    <nav class="navbar navbar-dark bg-dark mb-3">
-      <div class="container">
-        <a href="#" class="navbar-brand">GitHub Finder</a>
+    <div id="container">
+      <div id="main">
+        <nav class="navbar navbar-dark bg-dark mb-3">
+          <div class="container">
+            <a href="#" class="navbar-brand">GitHub Finder</a>
+          </div>
+        </nav>
+        <div class="container searchContainer">
+          <div class="search card card-body">
+            <h1>Search GitHub Users</h1>
+            <p>Enter a username to fetch a user profile and repos</p>
+            <input
+              type="text"
+              id="searchUser"
+              class="form-control"
+              placeholder="GitHub Username..."
+            />
+          </div>
+          <br />
+          <div id="profile"></div>
+        </div>
       </div>
-    </nav>
-    <div class="container searchContainer">
-      <div class="search card card-body">
-        <h1>Search GitHub Users</h1>
-        <p>Enter a username to fetch a user profile and repos</p>
-        <input
-          type="text"
-          id="searchUser"
-          class="form-control"
-          placeholder="GitHub Username..."
-        />
-      </div>
-      <br />
-      <div id="profile"></div>
     </div>
-    <footer class="mt-5 p-3 text-center bg-light">GitHub Finder &copy</footer>
+
+    <footer id="footer" class="p-3 text-center bg-light">
+      GitHub Finder &copy
+    </footer>
 
     <script src="js/github.js"></script>
     <script src="js/ui.js"></script>

@@ -1,3 +1,3 @@
 # GithubFinder
 
-## Link: https://joseluissaboya.github.io/GithubFinder/
+## Link: https://saboyadev.github.io/GithubFinder/

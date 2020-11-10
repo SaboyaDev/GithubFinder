@@ -1,3 +1,5 @@
-# GithubFinder Traversy Media Udemy Course - Modern Javascript From The Beginning
+# GithubFinder App - UI build with Bootstrap
 
-### Link: https://saboyadev.github.io/Traversy-Media-Udemy-Course-GithubFinder/
+<img src="https://saboya-dev-github.s3.amazonaws.com/Screen+Shot+2020-11-10+at+5.09.10+PM.png" width=720px/>
+
+### Link: https://saboyadev.github.io/GithubFinderApp/
